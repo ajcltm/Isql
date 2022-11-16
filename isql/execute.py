@@ -2,7 +2,7 @@ from typing import Protocol
 import sys
 parentPath='c:/Users/ajcltm/PycharmProjects/Isql' # parent 경로
 sys.path.append(parentPath)
-from connect import IConnection
+from isql.connect import IConnection
 
 class IExcuter(Protocol):
 
